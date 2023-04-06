@@ -1,15 +1,14 @@
-const x = document.getElementById("x");
-const y = document.getElementById("y");
-const button = document.getElementById("btn-b");
+let min = document.getElementById("x");
+let max = document.getElementById("y");
+let button = document.getElementById("btn-b");
 
 function sortearAleatorio() {
   let aleatorio = parseInt(Math.random() * 99999);
   document.getElementById("resultA").innerHTML = aleatorio;
 }
 
-
 function sortearEntre() {
-  let sorte = Math.floor(Math.random() * (y.value - x.value + 1) + x.value);
+  let sorte = parseInt(Math.random() * (parseInt(max.value)  - parseInt(min.value) + 1) + parseInt(min.value));
   document.getElementById("resultB").innerHTML = sorte;
-  button.innerText = `Entre ${x.value} e ${y.value}`;
+  button.innerText = `Entre ${min.value} e ${max.value}`;
 }
