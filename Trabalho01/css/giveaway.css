@@ -8,7 +8,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background: url("https://img.freepik.com/free-vector/special-giveaway-background_23-2149517393.jpg?w=2000");
+  background: url("https://img.freepik.com/free-vector/celebration-confetti-with-podium-platform-white-background_1017-32928.jpg?w=1060&t=st=1682167994~exp=1682168594~hmac=7ab8cd91587fec34a954501ea7650692855f7a4c8212ff793cd806677a00962d");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -16,5 +16,17 @@ body {
 
 .wrapper {
   max-width: 500px;
-  background: linear-gradient(90deg, #DADEDF, #F0F0F0)
+  background: linear-gradient(135deg, #389479, #8E19ED, #d2427c)
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::placeholder {
+  -webkit-appearance: none;
+  color: #dadada;
+}
+
+.form-control:focus,
+.form-control:active {
+  box-shadow: 0 0 0 0 #FFF;
 }

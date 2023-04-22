@@ -14,20 +14,24 @@
     <div class="wrapper border border-3 border-black rounded-4 w-100">
       <h1 class="title border-bottom border-3 border-black py-lg-2 px-4 fw-semibold fs-1">Sorteador de numeros</h1>
       <div class="px-4">
+        <div class="form-group w-100 mt-2">
+          <label class="form-check-label fs-4" for="quantity">Quantos números deseja sortear?</label>
+          <input class="form-control bg-transparent border-0 border-bottom border-3 border-black rounded-0 text-light " type="number" id="quantity" placeholder="Digite a quantidade">
+        </div>
         <div class="w-100 d-flex gap-5">
           <div class="form-group w-50 mt-2">
             <label class="form-check-label fs-4" for="low">Menor valor</label>
-            <input class="form-control" type="number" id="low" placeholder="Menor valor">
+            <input class="form-control bg-transparent border-0 border-bottom border-3 border-black rounded-0 text-light" type="number" id="low" placeholder="Menor valor">
           </div>
           
           <div class="form-group w-50 mt-2">
             <label class="form-check-label fs-4" for="high">Maior valor</label>
-            <input class="form-control" type="number" id="high" placeholder="Maior valor">
+            <input class="form-control bg-transparent border-0 border-bottom border-3 border-black rounded-0 text-light" type="number" id="high" placeholder="Maior valor">
           </div>
         </div>
 
         <div class="justify-content-center align-content-center d-flex  my-4">
-          <button type="button" class="btn btn-primary w-100" onclick="generate()">Sortear</button>
+          <button type="button" class="btn btn-info w-100" onclick="generate()">Sortear</button>
         </div>
 
         <div class="result">
@@ -35,7 +39,7 @@
             <h2 class="fs-2">Resultado</h2>
           </div>
           <div class="justify-content-center align-content-center d-flex my-2">
-            <h2 class="fs-2" id="result"></h2>
+            <h2 class="fs-2 text-light" id="result"></h2>
           </div>
         </div>
       </div>
