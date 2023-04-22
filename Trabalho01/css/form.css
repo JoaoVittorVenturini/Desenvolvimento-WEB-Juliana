@@ -15,15 +15,3 @@ body {
 .wrapper {
   max-width: 700px;
 }
-
-.green {
-  color: #3DC868 !important;
-}
-
-.yellow {
-  color: #ffec1a !important;
-}
-
-.red {
-  color: #c21717 !important;
-}
