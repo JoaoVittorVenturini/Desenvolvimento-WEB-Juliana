@@ -15,6 +15,6 @@ body {
 }
 
 .wrapper {
-  max-width: 700px;
-  background: linear-gradient(90deg, #FDFDFD, #FFF)
+  max-width: 500px;
+  background: linear-gradient(90deg, #DADEDF, #F0F0F0)
 }
