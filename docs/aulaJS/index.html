@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="https://th.bing.com/th/id/R.25b51d4fa737fb4ab08117aba84c97d0?rik=K4D65vB1LxXQqg&riu=http%3a%2f%2fwww.favicon.cc%2flogo3d%2f396223.png&ehk=9eglLuAQRk1I6Va5ehhbzsjlKsH5I0krLAKZlldDRcE%3d&risl=&pid=ImgRaw&r=0" type="image/x-icon">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./js/script.js"></script>
+  <title>JS</title>
+</head>
+<body>
+  <div class="title">Introdução ao JavaScript</div>
+  <div class="container">
+    <h2 class="title">Ver data e hora</h2>
+    <div class="content">
+      <p>Clique no botão para ver a data e hora do sistema!</p>
+      <button onclick="document.getElementById('result').innerHTML = Date()">Ver data e hora</button>
+      <p id="result">
+  
+      </p>
+    </div>
+  </div>
+  <div class="container">
+    <h2 class="title">Copie o texto</h2>
+    <div class="content">
+      <p>Esse paragrafor será copiado, ao clicar no botão</p>
+      <button onclick="myFunction()">Clique aqui</button>
+      <p class="result2">
+  
+      </p>
+    </div>
+  </div>
+  <div class="container">
+    <h2 class="title">Liga/Desliga</h2>
+    <div class="content">
+      <button onclick="ligar()">Ligar</button>
+      <img id="lampada" src="https://www.w3schools.com/js/pic_bulboff.gif" alt="Lampada">
+      <button onclick="desligar()">Desligar</button>
+    </div>
+  </div>
+</body>
+</html>

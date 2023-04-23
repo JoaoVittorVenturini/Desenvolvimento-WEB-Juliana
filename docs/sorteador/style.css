@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  align-items: center;
+  background: linear-gradient(90deg, #E93759, #87417F);
+  color: #FFF;
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
+
+.container {
+  backdrop-filter: blur(10px);
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1));
+  border: 2px solid #FFF;
+  border-radius: 10px;
+  width: 450px;
+}
+
+.title {
+  border-bottom: 2px solid #FFF;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.content {
+  padding: 25px;
+  text-align: center;
+}
+
+button {
+  height: 50px;
+  width: 50%;
+  background-color: aqua;
+  border: none;
+  border-radius: 8px;
+  color: #FFF;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 1rem 0;
+}
+
+.resultA, .resultB {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+input{
+  height: 50px;
+  width: 40%;
+  background-color: #FFF;
+  border: none;
+  border-radius: 8px;
+  color: #000;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 1rem 0;
+  padding: 0 1rem;
+}
